@@ -32,3 +32,13 @@ for p in 0..str.length-1
 end
 
 puts "a =#{a} e =#{e} i =#{e} o =#{o} u =#{u}"
+if str[0]!=" "
+	print "#{str[0]} "
+end
+for p in 0...str.length
+	if str[p] ==' '
+		if str[p+1] != nil
+			print"#{str[p+1]} "
+		end
+	end
+end
